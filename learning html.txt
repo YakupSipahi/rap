@@ -1,0 +1,141 @@
+<h1> left at minute 1:17:17 </h1>
+<!-- learning html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>learning html</title>
+</head>
+    <body>
+        <h1>hi there.</h1>
+        <p>i have a file here.!</p>
+    </body>
+</html>
+
+<!-- https://learn.shayhowe.com -->
+<!-- codepen.io -->
+
+<!--
+    Three parts of a well-formed document :
+- Doctype : version of HTML that you will be using
+- Head : metadata = extra information
+- Body : Displayable content
+-->
+
+<!-- HEAD
+- additional information used by the browser.
+- meta data - language, title
+- supporting files - javascript, styling, add-ons
+- other than title, meta-data is not displayed.
+-->
+
+<!-- BODY
+- bulk of your page.
+ - important to write well-formatted (tree-like) code.
+- most of the content is displayed by the browser, but there may be some meta-data too.
+-->
+
+<!-- Validate the Code
+to check your code go to validator.w3.org and upload the html file. 
+-->
+
+<!-- Common Tags 
+- Headings (block)
+    . <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+    . these tags have syntax and semantics
+- paragraphs (block)
+    . <p>...</p>
+    . should only contain inline elements
+- Divs (block)
+    . <div>...</div>
+    . generic section that is larger than a paragraph
+-->
+
+<!-- More Tags
+- Ordered Lists
+    .<ol>
+        <li>item one </li>
+        <li>item two </li>
+    </ol>
+- Unordered Lists
+    .<ul>
+        <li>item one </li>
+        <li>item two </li>
+    </ul>
+- Line Breaks
+    <br>
+
+<img src="logo.jpg" alt="company logo" title = "AAA1LLC" class= "thumbnail" />
+src = image file name
+alt = info for screen readers, broken links
+title = display hover
+class = extra formatting (height, width, position etc.)
+
+-->
+
+<!--
+Special Entities
+< &lt
+> &gt
+C &copy
+blank space &nbsp
+cent &cent
+& &amp
+-->
+
+<!-- DESIGN 
+    
+                        <header>
+
+    <section>                               <aside>
+    <article>
+                        <footer>
+-->
+
+<!--
+    <header>
+- a group of introductory or navigational aids: title, navigation links etc.
+<header>
+    <h1>this is the title</h1>
+    <h2>the author is Colleen</h2>
+</header>
+-->
+
+<!-- <nav> tag
+- a section of the page that links to other oages or to parts within the page.
+<nav>
+    <ul>
+        <li><a href="overview">Overview</a></li>
+    </ul>
+</nav>
+
+- often found in the <header> tag.
+
+
+-->
+
+<nav>
+    <ul>
+        <li>
+            <a href="#overview">Overview</a>
+        </li>
+        <li>
+            <a href="#history">History</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- <footer> tag
+- a section that contains info such as copyright data, related documents, and links to social media
+<footer>
+    &copy; 2022 by Yakup Sipahii<br>
+<a href="www.bing.com">Bing</a>
+</footer>
+
+-->
+
+<footer>
+    &copy; 2022 by Yakup Sipahi <br>
+<a href="www.bing.com">Probis</a>
+</footer>
